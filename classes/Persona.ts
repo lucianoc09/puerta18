@@ -1,4 +1,4 @@
-class Persona {
+export class Persona {
     private nacimiento: number;
     private nombre: string;
 
@@ -35,19 +35,3 @@ class Persona {
         return "mi edad es "+ edad + " años";
     }
 };
-
-let luciano = new Persona(2001, "Luciano Corteggiano");
-console.log(luciano.cualEsTuNombre());
-console.log(luciano.cualEsTuGeneracion());
-console.log(luciano.calcularEdad());
-
-
-/*
-// variable de año de nacimiento
-const nacimiento = 2001;
-// variable de tipo string con mi nombre
-let nombre: string = "Luciano";
-
-// salida
-console.log("Hola " + nombre + " desde TypeScript");
-*/
